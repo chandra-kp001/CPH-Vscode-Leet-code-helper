@@ -1,4 +1,4 @@
-# chandu README
+# CPH Leet-code-helper README
 Hii
 ThisThis is a VS Code extension which enables you to fetch test cases of any Leetcode problem directly into VS Code, using its url, as txt files. It also allows you to test run your program in  common languages like C++, Python on these fetched test cases and compare your outputs with the original output.
 
