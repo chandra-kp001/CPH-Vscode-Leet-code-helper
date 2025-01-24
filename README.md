@@ -1,20 +1,50 @@
 # chandu README
+Hii
+ThisThis is a VS Code extension which enables you to fetch test cases of any Leetcode problem directly into VS Code, using its url, as txt files. It also allows you to test run your program in  common languages like C++, Python on these fetched test cases and compare your outputs with the original output.
 
-This is the README for your extension "chandu". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+**1. Problem URL Fetching**
 
-For example if there is an image subfolder under your extension project workspace:
+Enable users to fetch test cases directly from LeetCode problem URLs. The system:
 
-\!\[feature X\]\(images/feature-x.png\)
+- Parses the problem description to extract the test cases (both input and expected output).
+- Handles problems with multiple test cases.
+- Stores test cases in a structured format for local testing.
+
+**2. Test Case Storage**
+
+Test cases are stored in a format compatible with the extension in form of .txt files. For example:
+
+- **Input File**: input_1.txt, input_2.txt, etc.
+- **Output File**: output_1.txt, output_2.txt, etc.
+
+**3. Code Execution**
+
+Allows the users to:
+
+- Write their code in their preferred programming language.
+- Execute their code against the fetched test cases.
+- Compare actual outputs with expected outputs.
+- Manually edit or add test cases if needed.
+- Provides clear error messages when test case fetching fails.
+
+**4. Multi-Language Support**
+
+Provides execution support for commonly used languages, such as:
+
+- C++
+- Python
+- JavaScript (using node.js)
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+
+- VS Code for running the extension
+- node.js for running JavaScript files locally
 
 ## Extension Settings
 
